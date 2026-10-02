@@ -46,6 +46,23 @@ nav {
     font-size: 15px;
 }
 
+.text a {
+    text-decoration: none;
+    color: #171717;
+    font-weight: 800;
+}
+
+.forgot_password {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #9F9F9F;
+}
+
+.forgot_password:hover {
+    color: #171717;
+}
+
 .button {
     font-family: "Nunito", sans-serif;
     font-size: 15px;
@@ -79,8 +96,57 @@ nav {
     background-color: #171717;
 }
 
+.signin,
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .form-container {
     background-color: #FFFFFF;
+    border-radius: 30px;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.signin {
+    display: none;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 16px;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border: 1px solid #9F9F9F;
+    outline: none;
+}
+
+form .button {
+    width: 100%;
 }
 
 footer {
