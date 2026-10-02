@@ -45,5 +45,4 @@ Punchin/
 # Local Node backend test files
 app.js
 text.txt
-package.json
 package-lock.json
