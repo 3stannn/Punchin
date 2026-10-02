@@ -1,0 +1,6 @@
+# Ignore backend & Node files so Vercel deploys purely as a static website
+app.js
+text.txt
+package.json
+package-lock.json
+node_modules
