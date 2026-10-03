@@ -28,11 +28,11 @@
                 <h1 class="heavy">Punch in to your day!</h1>
                 <p class="text">Track your daily hours, breaks, and milestones in one place.</p>
                 <div class="form-container">
-                    <form action="">
-                        <input type="text" name="username" placeholder="username" required>
-                        <input type="password" name="password" placeholder="password" required>
+                    <form action="" onsubmit="signIn(event)">
+                        <input type="text" name="username" id="username" placeholder="username" required>
+                        <input type="password" name="password" id="password" placeholder="password" required>
                         <a class="forgot_password" href="">Forgot password?</a>
-                        <input type="submit" name="login" class="button" value="Sign In">
+                        <input type="submit" name="login" class="button" value="Sign In" onclick="signIn(event)">
                         <p class="text">Issues logging in? Contact your administrator.</p>
                     </form>
                 </div>

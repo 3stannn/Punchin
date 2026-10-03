@@ -19,6 +19,19 @@ nav {
     padding: 10px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    color: #767676 !important;
+}
+
+.header a:hover {
+    color: #171717 !important;
+}
+
 .brand-name {
     font-weight: 800;
     font-size: 20px;

@@ -33,3 +33,20 @@ if (window.location.hash === "#signup" || new URLSearchParams(window.location.se
     showSignIn();
 }
 
+function signIn(event) {
+    if (event) event.preventDefault();
+
+    let usernameInput = document.querySelector("#username");
+    let passwordInput = document.querySelector("#password");
+
+    if (!usernameInput || !passwordInput) return;
+
+    let username = usernameInput.value.trim();
+    let password = passwordInput.value;
+
+    if (username === "admin" && password === "admin123") {
+        window.location.href = "home.html";
+    } else {
+        alert("Invalid username or password.");
+    }
+}
