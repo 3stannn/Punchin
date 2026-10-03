@@ -189,6 +189,14 @@ footer {
     height: 100%;
 }
 
+.active {
+    color: #32CD32 !important;
+}
+
+.inactive {
+    color: #FF0000 !important;
+}
+
 @media (max-width: 600px) {
     .heavy {
         font-size: 40px;
