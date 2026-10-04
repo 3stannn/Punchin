@@ -69,6 +69,10 @@
                         <p class="text-black mb-2">Time In / Time Out</p>
                         <h1 class="body-heavy" id="clock"></h1>
                         <p class="text" id="display-date2"></p>
+                        <div class="d-flex justify-content-between mb-0">
+                            <button class="time-in">Time In</button>
+                            <button class="time-out">Time Out</button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-8">
@@ -76,8 +80,8 @@
                         <p class="text-black mb-2">Quota Tracker</p>
                         <p class="text-black fw-bolder mb-0">John Doe</p>
                         <p class="text mb-0">Student ID: 2024800001 | Web Developer Intern at Company</p>
-                        <div class="progress mt-4" role="progressbar" aria-valuenow="5"
-                            aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress mt-4" role="progressbar" aria-valuenow="5" aria-valuemin="0"
+                            aria-valuemax="100">
                             <div class="progress-bar"><span class="small">10%</span></div>
                         </div>
                     </div>
@@ -87,10 +91,39 @@
                 <div class="col-12">
                     <div class="card">
                         <p class="text-black mb-2">Recent Timesheet Logs</p>
-                        <p class="text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatum
-                            atque
-                            ipsum quas sequi suscipit quae omnis officiis incidunt autem a repellat aperiam voluptatem
-                            modi, quasi perspiciatis, nisi optio porro?</p>
+                        <p class="text mb-0">Synced records from mobile tap-ins and tap-outs.</p>
+                        <div class="table-responsive mt-3">
+                            <table class="table text-nowrap align-middle mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Morning Session</th>
+                                        <th>Afternoon Session</th>
+                                        <th>Total Hours</th>
+                                        <th>Overtime</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><b>October 4, 2026</b></td>
+                                        <td class="text">8:00 AM &#8594; 12:00 PM</td>
+                                        <td class="text">1:00 PM &#8594; --:--</td>
+                                        <td class="text"><b>4</b> hrs</td>
+                                        <td class="text"><b>0.0</b> hrs</td>
+                                        <td class="text"><b>In Progress</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>October 3, 2026</b></td>
+                                        <td class="text">8:00 AM &#8594; 12:00 PM</td>
+                                        <td class="text">1:00 PM &#8594; 4:00 PM</td>
+                                        <td class="text"><b>8</b> hrs</td>
+                                        <td class="text"><b>0.0</b> hrs</td>
+                                        <td class="text"><b>Completed</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
