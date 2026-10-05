@@ -26,6 +26,26 @@ nav {
     font-size: 40px;
 }
 
+.brand-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+
+.brand-icon {
+      width: 20px;
+      height: 20px;
+      background: #171717;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #F5F5F5;
+      font-weight: 900;
+      font-size: 15px;
+    }
+
 .brand-name {
     font-weight: 800;
     color: #171717;
@@ -132,7 +152,7 @@ nav {
 }
 
 .form-container {
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
     border-radius: 30px;
     border: 1px solid #e7e7e7;
     padding: 20px;
@@ -209,19 +229,22 @@ button {
     font-weight: 800;
 }
 
-button:hover {
-    background-color: #171717;
-    color: #F5F5F5;
-}
-
 .time-in {
     background-color: #2FB954;
     color: #F5F5F5;
 }
 
+.time-in:hover {
+    background-color: #32CD32;
+}
+
 .time-out {
     background-color: #ED372D;
     color: #F5F5F5;
+}
+
+.time-out:hover {
+    background-color: #FF0000;
 }
 
 .progress {
