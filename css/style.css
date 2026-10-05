@@ -194,11 +194,11 @@ footer {
 }
 
 .active {
-    color: #32CD32 !important;
+    color: #2FB954 !important;
 }
 
 .inactive {
-    color: #FF0000 !important;
+    color: #ED372D !important;
 }
 
 button {
@@ -215,12 +215,12 @@ button:hover {
 }
 
 .time-in {
-    background-color: #32CD32;
+    background-color: #2FB954;
     color: #F5F5F5;
 }
 
 .time-out {
-    background-color: #FF0000;
+    background-color: #ED372D;
     color: #F5F5F5;
 }
 
